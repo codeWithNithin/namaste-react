@@ -1,3 +1,0 @@
-JAN-02 tasks done
-1. Create a Hello world from HTML
-2. Create a Hello world from JS
