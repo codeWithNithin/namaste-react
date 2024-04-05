@@ -17,6 +17,9 @@
 
 - step4 -> How to import CDN
 - step5 -> explore CDN
+- step6 -> creating React code
+- step7 -> writing JS code seperately
+- step8 -> add CSS
 
 # Theory
 
@@ -25,6 +28,17 @@
 - React at the end of the day is JS.
 - React code is written by facebook developers
 - 2 links from CDN, react.development.js, react-dom.development.js
+- why 2 CDN links? because, React doesnt only work on desktop, it runs on mobile, tabs etc...
+- react.development.js -> this gives the whole react thing
+- react-dom.development.js -> bridge between the React and browser
+- React.createElement('div', {}, 'content') -> this will create a react element
+- first arg -> element
+- second arg -> attributes, which later passed as props
+- third arg -> content
+- ReactDOM.createRoot() -> will create a root
+- root.render() ->
+- When React was, build it was build with philosopy that we want to manipulate the DOM using JS.
+- Most costly operation inside a browser or a web page, is to when the DOM not needs to be manipulated
 
 # Assignments
 
