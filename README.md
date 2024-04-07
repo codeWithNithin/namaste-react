@@ -4,7 +4,7 @@
 - How React works behind the scenes
 - How Browser renders react code
 - Browser: Google chrome -> better dev tools
-- IDE: Code editor
+- IDE: VS code editor
 
 # EP-01 Inception
 
@@ -20,6 +20,12 @@
 - step6 -> creating React code
 - step7 -> writing JS code seperately
 - step8 -> add CSS
+- step9 -> written nested HTML elements using React.createElement() method
+- step10 -> Got to know about JSX, another alternative for creating React elements.
+- step11 -> Will the order of files matter? yes it is.
+- step12 -> task of render method is explored
+- step13 -> how React works?
+- step14 -> Diff between library and framework
 
 # Theory
 
@@ -38,7 +44,12 @@
 - ReactDOM.createRoot() -> will create a root
 - root.render() ->
 - When React was, build it was build with philosopy that we want to manipulate the DOM using JS.
-- Most costly operation inside a browser or a web page, is to when the DOM not needs to be manipulated
+- Most costly operation inside a browser or a web page, is to when the DOM not needs to be manipulated.
+- React can be written in 2 ways, 1. using React elements, 2. using JSX
+- using React elements for complex HTML structure is hard, for that we can use JSX.
+- render method, will replace all the tags present in it. not append it.
+- React only works in place, whatever we make root as.
+- At the end of the day, React is JS.
 
 # Assignments
 
