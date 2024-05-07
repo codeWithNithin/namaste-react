@@ -109,4 +109,14 @@
 - Minification
 - Bundling
 - Compressing
--
+- code splitting
+- Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+
+# Ep-03 Laying the foundation
+
+- Run NPM scripts
+- inside pacakge.json file, go to scripts object and add start key
+- Lets start the foundations of React
+  --
